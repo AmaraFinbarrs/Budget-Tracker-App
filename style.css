@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Inter';
+    color: #3C3C3C;
+}
+
+#header{
+    /* dimension */
+    width: 200px;
+    height: 31px;
+
+    /* text style */
+    line-height: 15px;
+    font-weight: 300;
+    font-size: 0.75rem;
+    letter-spacing: 0.2rem;
+
+    /* position */
+    margin: 28px auto 0px;
+
+    /* content position */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 8px 8px 8px;
+}
+
+#input-field{
+    /* dimension */
+    width: 374px;
+
+    /* layout of content */
+    padding: 24px 16px 16px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* position */
+    margin: 0 auto 20px;
+}
+
+#input-value{
+    /* text-style */
+    font-size: 1.8rem;
+
+    /* style */
+    background: #ECECEC;
+    border-radius: 10px;
+
+    /* dimension */
+    width: 342px;
+    height: 72px;
+
+    /* layout of content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 24px 16px 16px;
+}
+
+#grid{
+    /* grid style */
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px 16px;
+
+    /* position of grid container */
+    margin-bottom: 24px;
+}
+
+#grid>button {
+    /* dimension */
+    height: 80px;
+    width: 80px;
+
+    /* button style */
+    border: 0px;
+    border-radius: 10px;
+
+    /* text style */
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.acheck-btn {
+    /* style */
+    background: #53DC71;
+    border: 0px;
+
+    /* text style */
+    color: white;
+}
+
+.adelete-btn {
+    /* style */
+    background: #F04C4C;
+    border: 0px;
+
+    /* text style */
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#save-el {
+    /* text style */
+    color: #F04C4C;
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+
+#display{
+    /* style */
+    background: white;
+    border: 1px solid black;
+
+    /* text-style */
+    color: #3C3C3C;
+    font-size: 1rem;
+
+    /* dimension */
+    width: 342px;
+    height: 51px;
+    border-radius: 10px;
+
+    /* content layout */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    /* position */
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
