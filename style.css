@@ -128,10 +128,12 @@ body{
 
 .adelete-btn:hover{
     background: #FF6060;
+    /* border-radius: 10px; */
 }
 
 .adelete-btn:active{
     background: #F04C4C;
+    /* border-radius: 10px */
 }
 
 a {

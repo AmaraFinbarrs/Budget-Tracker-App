@@ -26,7 +26,7 @@
                     <input type="text" placeholder="e.g. A bunch of bananas" id="inp-text">
                 </div>
                 <div>
-                    <button id="submit-btn">
+                    <button id="submit-btn" onclick="save()">
                         <span class="tiny-fa"><i class="fa-solid fa-check"></i></span>
                         <p>Save This Entry</p>
                     </button>
@@ -50,19 +50,21 @@
         <p id="input-field">0</p>
     </div>
 
-    <!-- Grid -->
+    <!-- Grid Container-->
     <div id="grid">
-        <button id="Seven">7</button>
-        <button id="Eight">8</button>
-        <button id="Nine">9</button>
-        <button id="Four">4</button>
-        <button id="Five">5</button>
-        <button id="Six">6</button>
-        <button id="One">1</button>
-        <button id="Two">2</button>
-        <button id="Three">3</button>
-        <a href="" id="adelete-btn"><button class="adelete-btn"><i class="fa-solid fa-delete-left"></i></button></a>
-        <button id="Zero">0</button>
+        <!-- Buttons -->
+        <button id="Seven" onclick="typeNumberSeven()">7</button>
+        <button id="Eight" onclick="typeNumberEight()">8</button>
+        <button id="Nine" onclick="typeNumberNine()">9</button>
+        <button id="Four" onclick="typeNumberFour()">4</button>
+        <button id="Five" onclick="typeNumberFive()">5</button>
+        <button id="Six" onclick="typeNumberSix()">6</button>
+        <button id="One" onclick="typeNumberOne()">1</button>
+        <button id="Two" onclick="typeNumberTwo()">2</button>
+        <button id="Three" onclick="typeNumberThree()">3</button>
+        <!-- <a href="" id="adelete-btn"><button onclick="backSpace()" class="adelete-btn"><i class="fa-solid fa-delete-left"></i></button></a> -->
+        <div id="adelete-btn"><button onclick="backSpace()" class="adelete-btn"><i class="fa-solid fa-delete-left"></i></button></div>
+        <button id="Zero" onclick="typeNumberZero()">0</button>
         <a href="#overlay1" id="acheck-btn"><button class="acheck-btn"><i class="fa-solid fa-check"></i></button></a>
     </div>
 
@@ -77,5 +79,8 @@
         </div>
     </a>
     <!-- </div> -->
+
+    <!-- link index.js to this html document-->
+    <script src="index.js"></script>
 </body>
 </html>
