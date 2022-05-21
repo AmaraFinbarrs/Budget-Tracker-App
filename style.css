@@ -92,6 +92,14 @@ body{
     font-weight: 300;
 }
 
+#grid>button:hover{
+    background: #F5F5F5;
+}
+
+#grid>button:active {
+    background: #ECECEC;
+}
+
 .acheck-btn {
     /* style */
     background: #53DC71;
@@ -101,6 +109,14 @@ body{
     color: white;
 }
 
+.acheck-btn:hover{
+    background: #67F085;
+}
+
+.acheck-btn:active{
+    background: #53DC71;
+}
+
 .adelete-btn {
     /* style */
     background: #F04C4C;
@@ -108,6 +124,14 @@ body{
 
     /* text style */
     color: white;
+}
+
+.adelete-btn:hover{
+    background: #FF6060;
+}
+
+.adelete-btn:active{
+    background: #F04C4C;
 }
 
 a {
@@ -147,6 +171,22 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0 auto;
+}
+
+#display:hover{
+    /* style */
+    background: #3C3C3C;
+
+    /* text style */
+    color: white;
+}
+
+#display:active {
+    /* style */
+    background: #4F4F4F;
+
+    /* text style */
+    color: white;
 }
 
 /* History Page */
@@ -310,6 +350,22 @@ li{
     font-size: 1rem;
 }
 
+#submit-btn:hover{
+    /* style */
+    background: #53DC71;
+
+    /* text stlye */
+    color: white;
+}
+
+#submit-btn:active {
+    /* style */
+    background: #67F085;
+
+    /* text stlye */
+    color: white;
+}
+
 .tiny-fa {
     /* text-area */
     font-weight: 400;
@@ -356,7 +412,8 @@ li{
     visibility: visible;
 }
 
-#overlay2>a {
+#overlay2>a, 
+#cancel-btn-id {
     display: block;
 }
 
@@ -433,6 +490,22 @@ li{
     font-size: 1rem;
 }
 
+#delete-entries-btn:hover{
+    /* style */
+    background: #F04C4C;
+
+    /* text style */
+    color: white;
+}
+
+#delete-entries-btn:active {
+    /* style */
+    background: #FF6060;
+
+    /* text style */
+    color: white;
+}
+
 #cancel-btn {
     /* arrangement of content */
     display: flex;
@@ -454,3 +527,20 @@ li{
     /* text style */
     font-size: 1rem;
 }
+
+#cancel-btn:hover {
+    /* style */
+    background: #3C3C3C;
+
+    /* text style */
+    color: white;
+}
+
+#cancel-btn:active {
+    /* style */
+    background: #4F4F4F;
+
+    /* text style */
+    color: white;
+}
+
