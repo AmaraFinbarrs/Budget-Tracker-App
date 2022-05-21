@@ -146,3 +146,59 @@ a {
     transform: translate(-50%, -50%);
     margin: 0 auto;
 }
+
+/* History Page */
+#sub-heading{
+    /* position */
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    /* text style */
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+
+#table{
+    /* style */
+    display: flex;
+    justify-content: space-around;
+
+    /* dimension */
+    width: 390px;
+
+    /* postion */
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+#items{
+    /* text style */
+    text-align: left;
+}
+
+#prices{
+    /* text style */
+    text-align: right;
+}
+
+#total{
+    /* position */
+    margin: 32px;
+
+    /* text style */
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #3C3C3C;
+}
+
+#clear{
+    /* text style */
+    color: #F04C4C;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+}
