@@ -76,7 +76,9 @@ body{
     margin-bottom: 24px;
 }
 
-#grid>button {
+#grid>button,
+#grid>#acheck-btn>button,
+#grid>#adelete-btn>button {
     /* dimension */
     height: 80px;
     width: 80px;
@@ -226,7 +228,11 @@ li{
     visibility: hidden;
 }
 
-#overlay>a{
+#overlay1:target{
+    visibility: visible;
+}
+
+#overlay1>a{
     display: block;
 }
 
@@ -235,7 +241,7 @@ li{
     grid-column-end: 4;
 }
 
-#overlay-content{
+#overlay1-content{
     /* position of content */
     display: flex;
     flex-direction: column;
@@ -344,6 +350,10 @@ li{
     display: grid;
     grid-template-columns: auto 343px auto;
     grid-template-rows: 260px 319px auto;
+}
+
+#overlay2:target {
+    visibility: visible;
 }
 
 #overlay2>a {
