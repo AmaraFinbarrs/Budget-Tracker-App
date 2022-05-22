@@ -114,15 +114,19 @@ function backSpace(){
 }
 
 //function to save value, add new list of items and their prices to history page
-let saveEl = document.getElementById("save-el")
+let saveEl = document.getElementById("save-el");
+let inpText = document.getElementById("inp-text");
 function save(){
     //To save value
-    if(number !== null && number !== ""){
+    if(number !== "" && inpText.value !== ""){
         //create a varible to store the current number value 
         let totalVal = Number(number);
 
         //render the variable in the saveEl
         saveEl.innerText = Number(saveEl.textContent) + totalVal;
+
+        //render the inpText values in the items list
+        //render the number in the prices list
         
         //save the value in the web local storage
         let savedKey = "Saved Value";
