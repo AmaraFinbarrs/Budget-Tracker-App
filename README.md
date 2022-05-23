@@ -28,6 +28,8 @@ It can be used in all kins of shopping endevours but it is recommended for small
 
 ## Design and Prototype
 
+https://user-images.githubusercontent.com/100963912/169919520-7b380fba-7785-45e9-bc15-238a23b9dc38.mp4
+
 
 ## How to Use
 
