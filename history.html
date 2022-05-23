@@ -24,7 +24,7 @@
             <p id="overlay2-warning">You cannot undo this action</p>
             <form action="" id="overlay2-answer">
                 <div>
-                    <button id="delete-entries-btn">
+                    <button id="delete-entries-btn" onclick="deleteAllEntries()">
                         <p>Delete all my entries</p>
                     </button>
                 </div>
@@ -50,22 +50,24 @@
     <!-- Table of Items and their prices -->
     <div id="table">
         <ul id="items">
-            <li>Pap</li>
-            <li>Garri</li>
-            <li>Beans</li>
-            <li>Vegetables</li>
+            <!-- Placeholder Items -->
+            <!-- <li>Pap</li> -->
+            <!-- <li>Garri</li> -->
+            <!-- <li>Beans</li> -->
+            <!-- <li>Vegetables</li> -->
         </ul>
     
         <ul id="prices">
-            <li>200</li>
-            <li>900</li>
-            <li>500</li>
-            <li>100</li>
+            <!-- Placeholder Prices -->
+            <!-- <li>200</li> -->
+            <!-- <li>900</li> -->
+            <!-- <li>500</li> -->
+            <!-- <li>100</li> -->
         </ul>
     </div>
 
     <!-- Total -->
-    <p id="total">1,700</p>
+    <p id="total">0.00</p>
     
     <!-- clear history link -->
     <a href="#overlay2">
@@ -79,5 +81,8 @@
             <p>Go Back</p>
         </div>
     </a>
+
+    <!-- link history.js to this html document-->
+    <script src="history.js"></script>
 </body>
 </html>

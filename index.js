@@ -1,5 +1,4 @@
 //to display number on screen
-
 let inputValue = document.getElementById("input-field");
 let one = document.getElementById("One");
 let two = document.getElementById("Two");
@@ -116,6 +115,14 @@ function backSpace(){
 //function to save value, add new list of items and their prices to history page
 let saveEl = document.getElementById("save-el");
 let inpText = document.getElementById("inp-text");
+
+// defined variables to store items and thier respective prices
+let savedItemValue = new Array(); let savedItem = "Saved Items";
+savedItemValue.splice(0, savedItemValue.length);
+let savedPriceValue = new Array(); let savedPrice = "Saved Prices";
+savedPriceValue.splice(0, savedPriceValue.length);
+
+
 function save(){
     //To save value
     if(number !== "" && inpText.value !== ""){
@@ -124,24 +131,57 @@ function save(){
 
         //render the variable in the saveEl
         saveEl.innerText = Number(saveEl.textContent) + totalVal;
+        // const currentPrice = saveEl.innerText;
 
         //render the inpText values in the items list
+        renderItem(inpText);
+
         //render the number in the prices list
-        
+        renderPrice(totalVal);
+       
         //save the value in the web local storage
         let savedKey = "Saved Value";
         let savedValue = saveEl.innerText.toString();
         localStorage.setItem(savedKey, savedValue);
         
         //reset the number to an empty string to start afresh
-        number = ""
+        number = "";
+
         //Display an empty text field
         inputValue.innerText = number;
     }
 }
 
+//function to render the inpText values in the items list
+function renderItem(inpText){
+    if(savedItemValue.length == 0 && localStorage.getItem("Saved Items") !== null) {
+        // let savedItem = "Saved Items";
+        // savedItemValue = new Array();
+        console.log(savedItemValue.length);
+        savedItemValue[0] = inpText.value;
+        console.log(savedItemValue);
+    } else if(savedItemValue.length !== 0 && localStorage.getItem("Saved Items") !== null){
+        savedItemValue.push(inpText.value);
+        console.log(savedItemValue);
+    }
+    localStorage.setItem(savedItem, JSON.stringify(savedItemValue));
+}
+
+//function to render the number in the prices list
+function renderPrice(totalVal){
+    if (savedPriceValue.length == 0) {
+        // let savedPrice = "Saved Prices";
+        // savedPriceValue = new Array();
+        savedPriceValue[0] = totalVal.toString();
+    } else if(savedPriceValue.length !== 0 && localStorage.getItem("Saved Prices") !== null){
+        console.log(savedPriceValue);
+        savedPriceValue.push(totalVal.toString());
+    }
+    localStorage.setItem(savedPrice, JSON.stringify(savedPriceValue));
+}
+
+//Data stored in local storage to prevent data loss
 window.onload = function() {
-    //functionalities I don't want overwritten when page is reloaded
     if(localStorage.getItem("Saved Value") !== null){
         saveEl.innerText = localStorage.getItem("Saved Value");
     }
