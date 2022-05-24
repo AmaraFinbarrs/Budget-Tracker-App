@@ -45,3 +45,4 @@ function deleteAllEntries() {
     location.reload();
     // document.getElementById("overlay2").style.visibility = "hidden";
 }
+
