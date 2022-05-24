@@ -7,24 +7,24 @@
 </p> 
 
 ## Project Description
-This Expense Tracking Web Application or Expense Tracker is a web application that was designed for shoppers to aid them track the items they buy with their respective prices. 
+This Expense Tracking Web Application or Expense Tracker is a web application designed for shoppers to track the items they buy and their respective prices. 
 
-It can used by anybody that has access to a phone or PC and a working internet connection. However, the app was designed for those without internet stable internet connection in mind as well. Loss of network connection doesn;t equate data loss, this means that you can the app collects the user input and stores in a local storage, and it can only deleted when the user clear their history.
+Anyone that has access to a phone or PC and a working internet connection can use the app. However, the app was designed for those without a stable internet connection in mind as well. Loss of network connection doesn't equate to data loss, which means that the app collects the user input and stores it in the web's local storage and deletes it only when the user clears their history.
 
-It can be used in all kins of shopping endevours but it is recommended for small individual/personal expense tracking such as tracking grocery shopping, clothes shopping, house items shopping etc.
+The expense tracker is applicable in all kinds of shopping endeavours. But it is recommended for small individual/personal expense tracking during activities such as grocery shopping, clothes shopping, house items shopping etc.
 
 ## Key Features
 - Main Page
-  - Prices Input Field: This is where the user input the price of the item they would want to track.
-  - Number Buttons: User uses the number buttons to key in values. They range from 0-9,
-  - Backspace Button: This help user clear the last keyed in number in case of an incorrectly entered value.
-  - Save Price Button: This diplays an overlay which instructs the user to enter the name of the item they would want to track. This is represented with a "check" symbol.
-  - Current Total Value: This displays the total amount the user has spent so far.
-  - Save Item Button: This appears in the overlay and it is used to save the item and its prices in the local storage of the web.
+  - Price Input Field: This is where the user inputs the price of the item they would want to track.
+  - Number Buttons: The user uses the number buttons to key in values. They range from 0 to 9.
+  - Backspace Button: This helps the user clear the last keyed in number in case of an incorrectly entered value.
+  - Save Price Button: This displays an overlay instructing the user to enter the item they want to track. 
+  - Total Value: This displays the total amount the user has spent so far.
+  - Save Item Button: This appears in the overlay, and it saves an item and its prices in the local storage of the web.
 - History Page
-  - Table of Items and Prices: This displays the items that the user has bought so far with thier prices.
+  - Table of Items and Prices: This displays the items the user has bought so far with their prices.
   - Clear History Button: This clear all the user's inputs.
-  - Current Total Value: This displays the total amount the user has spent so far.
+  - Total Value: This displays the total amount the user has spent so far.
 
 ## Design and Prototype
 
@@ -33,12 +33,12 @@ https://user-images.githubusercontent.com/100963912/169919520-7b380fba-7785-45e9
 
 ## How to Use
 
-Let's say a user names Amara wants to use this app. 
-- Firstly she needs to key in the price of the first item she wants to buy. 
+Let's say a user named Amara wants to use this app. 
+- Firstly, she needs to key in the price of the first item she wants to buy. 
 - If she keys in an incorrect price, she can correct it by using the red backspace button. 
-- But if she has keyed in the correct value, she can press the green tick button to signal that to the app. 
+- If she has keyed in the correct value, she can press the green tick button to signal that to the app. 
 - A box will appear asking her what item she bought. 
-- Once she types in the item she bought, the app saved it.
+- Once she types in the item she bought, the app saves it.
 - She can now view the item on the History page.
 - She can do the same for every item she buys, and just like that, we have helped Amara track her spending. 
 
