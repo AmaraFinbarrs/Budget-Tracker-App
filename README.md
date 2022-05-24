@@ -47,5 +47,5 @@ Let's say a user named Amara wants to use this app.
 </p>
 
 ## Link to Use the Expense Tracker
-
+[https://amarafinbarrs.github.io/An-Expense-Tracking-Web-App/](https://amarafinbarrs.github.io/An-Expense-Tracking-Web-App/)
 
