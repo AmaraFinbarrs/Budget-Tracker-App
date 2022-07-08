@@ -16,8 +16,8 @@ let number = "";
 // function to type 1 in the input field
 function typeNumberOne() {
     let value = one.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -25,8 +25,8 @@ function typeNumberOne() {
 // function to type 2 in the input field
 function typeNumberTwo() {
     let value = two.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -34,8 +34,8 @@ function typeNumberTwo() {
 // function to type 3 in the input field
 function typeNumberThree() {
     let value = three.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -43,8 +43,8 @@ function typeNumberThree() {
 // function to type 4 in the input field
 function typeNumberFour() {
     let value = four.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -52,8 +52,8 @@ function typeNumberFour() {
 // function to type 5 in the input field
 function typeNumberFive() {
     let value = five.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -61,8 +61,8 @@ function typeNumberFive() {
 // function to type 6 in the input field
 function typeNumberSix() {
     let value = six.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -70,8 +70,8 @@ function typeNumberSix() {
 // function to type 7 in the input field
 function typeNumberSeven() {
     let value = seven.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -79,8 +79,8 @@ function typeNumberSeven() {
 // function to type 8 in the input field
 function typeNumberEight() {
     let value = eight.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -88,8 +88,8 @@ function typeNumberEight() {
 // function to type 9 in the input field
 function typeNumberNine() {
     let value = nine.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
@@ -97,8 +97,8 @@ function typeNumberNine() {
 // function to type 0 in the input field
 function typeNumberZero() {
     let value = zero.textContent;
-    number += value;
     if(inputValue.innerText.length<=7){
+        number += value;
         inputValue.innerText = number;
     }
 }
